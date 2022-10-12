@@ -9,6 +9,7 @@ The goal of this project is to develop a prototype for the digitization of posta
 - for the prototype logos of six companies were used to train the mobilenetV2 model
 - python flask framework was used to build a webbased user interface 
 - open source python pdf scanner was used to scan the documents and save it as pdf
+- a function is matching name of the sender with the resepective folder of the company in a document folder and automatically saves it in the right space
 
 ### First Step: Take picture of logo o letter head
 
