@@ -1,0 +1,6 @@
+# file containing tokens
+tokens.env
+
+
+#not the picture folders
+images/

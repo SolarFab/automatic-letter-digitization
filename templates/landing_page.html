@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidy Up your Letters</title>
+    <link rel="stylesheet" href="../static/style_test3.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <!-- <img src='../static/coollogo_com-287424.png' height="20%" > -->
+                <h1 class="mt-5">MESSI A.I.</h1>
+                <h2 class="mt-6">Take a shot of the logo</h2>
+                <img id="logo-detection" src="{{ url_for('video_feed_logo') }}" height="80%">
+                <br>
+                <form method="post" action="{{ url_for('tasks') }}">
+                <input id="logo_button" type="submit" value="SHOOT" name="click"/>
+                <!-- <input type="submit" value="Doc Scan" name="grey" />
+                </form>
+                <form action="/doc-scan">
+                    <input type="submit" value="Go to Google" />
+                </form> -->
+                
+                
+               
+            </div>
+        </div>
+    </div>
+
+
+</body>

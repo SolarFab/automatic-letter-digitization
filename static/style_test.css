@@ -1,0 +1,30 @@
+
+h1{
+    color:blueviolet;
+    font-family:'Bungee Shade', cursive;
+}
+
+h2{
+    color:blueviolet;
+    font-family:'Bungee Shade', cursive;
+}
+
+h3{
+    color:blueviolet;
+    font-family:'Bungee Shade', cursive;
+    font-size: 25;
+}
+
+body{
+    width:80%;
+    margin:auto;
+    padding:50px;
+    text-align: center;
+    font-size: medium;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    background-color:rgb(245, 180, 202);
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
